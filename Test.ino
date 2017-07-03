@@ -17,9 +17,9 @@ Servo myservo;
 String payload;
 
 // initialisation des constantes spécifiques à votre installation 
-const String nelsonName = "Shigaraki";
-const char* ssid = "SFR_A5D8";
-const char* password = "llankmatiannalb8alei";
+const String nelsonName = "";
+const char* ssid = "";
+const char* password = "";
 
 // initialise deux variables entières
 // pos contient la valeur actuelle de notre servo
@@ -57,7 +57,7 @@ void loop() {
     
     Serial.println("[HTTP] begin...");
     String uri = "/nelsons/" + nelsonName + "/";
-    http.begin("192.168.1.65", 80, uri);
+    http.begin("", 80, uri);
 
     Serial.println("[HTTP] GET...");    
     // démarrer la connexion et envoyer les entêtes HTTP

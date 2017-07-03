@@ -3,10 +3,10 @@
 
 // initialisation des constantes spécifiques à votre installation 
 const String nelsonName = "Shigaraki";
-const char* ssid = "SFR_A5D8";
-const char* password = "llankmatiannalb8alei";
+const char* ssid = "";
+const char* password = "";
 // valeurs pour le serveur Web
-const char* host     = "http://192.168.1.65";
+const char* host     = "";
 //const char* nelson     = "Shigaraki"; 
 
 String keyword = String("\"position\":"); //chaîne que l'on recherche dans le JSON
